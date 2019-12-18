@@ -1,3 +1,4 @@
+// main index page start
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +60,7 @@ body {
     align-items: center;
     grid-area: logo;
     justify-content: center;
-    padding: 2%;
+    padding: 1%;
     &:hover{
         transition: 2s;
         // box-shadow: 0px 0px 20px red;
@@ -98,7 +99,6 @@ body {
     }
 }
 
-
 .image{
     grid-area: image;
     height: auto;
@@ -109,6 +109,7 @@ body {
     border-radius: 25%;
     padding: 3em;
 }
+
  #home-image{
      height: auto;
     -webkit-filter: grayscale(100%);
@@ -130,3 +131,103 @@ body {
     text-align: center;
     padding: 100px;
 }
+// main index page end 
+
+
+// contact me page starts
+header {
+    text-align: center;
+    background-color:royalblue;
+    background-size: cover;
+    overflow: hidden;
+    max-width: 100%;
+    grid-area: header;
+    padding: 15px;
+}
+header:hover {
+    color:whitesmoke;
+    transition:all 2.5s ease;
+    transform: scale(1.1);
+}
+
+#contact-nav {
+    height: 7.5em;
+    width: 100%;
+    .contact-nav {
+        display: flex;
+        justify-content: space-around;
+        font-weight: 700;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 3px;
+        border-radius: 5%;
+        background-color:grey;
+        height:25px;
+    }
+    .contact-nav a:hover {
+        color:whitesmoke;
+        transition:all 0.4s ease;
+    }
+}
+
+#my-logo-contact{
+    border-radius: 20%;
+    width: 25%;
+    &:hover{
+        transition: 1s;
+        box-shadow: 0px 0px 20px blue;
+        transform: rotate(360deg);
+    }
+}
+#contact-container {
+    display: grid;
+    position: relative;
+    bottom: -50px;
+    grid-gap: 2rem;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "email" "facebook";
+}
+.email{
+    grid-area: email;
+    background-color: grey;
+    color:whitesmoke;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 25%;
+    padding: 1%;
+}
+#email-id{
+    padding: 4%;
+    border-radius:20%;
+    &:hover{
+        transition: 2s;
+        box-shadow: 0px 0px 30px red;
+        transform: scale(1.5);
+        background-color: whitesmoke;
+    }
+}
+.facebook{
+    grid-area: facebook;
+    background-color: grey;
+    color:whitesmoke;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 25%;
+    padding: 1%;
+}
+#facebook-id{
+    padding: 4%;
+    border-radius:20%;
+    &:hover{
+        transition: 2s;
+        box-shadow: 0px 0px 30px red;
+        transform: scale(1.5);
+        background-color: whitesmoke;
+    }
+}
+// contact me page end
