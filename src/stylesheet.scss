@@ -81,6 +81,7 @@ body {
     margin-right: auto;
     width: 75%;
     padding: 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #main-text{
@@ -91,6 +92,7 @@ body {
         box-shadow: 0px 0px 20px red;
         transform: scale(1.15);
         background-color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }
 
@@ -222,6 +224,7 @@ aside {
   position: relative;
   margin: 40px 0;
   margin-bottom: 15%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 aside h3 {
@@ -234,6 +237,7 @@ aside h3 {
   margin: 0 0 10px 0;
   line-height: 24px;
   border-radius: 10%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .blog-text{
@@ -247,6 +251,7 @@ text-align: center;
         transition: 2s;
         transform: scale(1.05);
         box-shadow: 0px 0px 30px red;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }
 // end blog styling
