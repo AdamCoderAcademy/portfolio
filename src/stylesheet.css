@@ -266,6 +266,7 @@ body {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
   background-color: whitesmoke;
+  text-transform: uppercase;
 }
 
 #page-wrap {
