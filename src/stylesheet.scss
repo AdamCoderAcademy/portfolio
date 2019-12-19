@@ -5,7 +5,6 @@
     }
           
 header {
-    // display: flex;
     text-align: center;
     background-color:royalblue;
     background-size: cover;
@@ -17,7 +16,7 @@ header {
 header:hover {
     color:whitesmoke;
     transition:all 2.5s ease;
-    transform: scale(1.1);
+    // transform: scale(1.1);
 }
 
 #main-nav {
@@ -28,7 +27,6 @@ header:hover {
         justify-content: space-around;
         font-weight: 700;
         list-style-type: none;
-        margin: 0 auto;
         padding: 3px;
         border-radius: 5%;
         background-color:grey;
@@ -52,7 +50,6 @@ body {
     "logo"
     "text"
     "image";
-    // background-image: url("../docs/blue-background-effect.jpg");
 }
 
 .logo{
@@ -63,7 +60,6 @@ body {
     padding: 1%;
     &:hover{
         transition: 2s;
-        // box-shadow: 0px 0px 20px red;
         transform: scale(1.1);
     }
 }
@@ -71,7 +67,7 @@ body {
     border-radius: 20%;
     width: 25%;
     &:hover{
-        transition: .5s;
+        transition: 0.5s;
         box-shadow: 0px 0px 20px blue;
         transform: scale(1.2); 
     }
@@ -92,7 +88,6 @@ body {
     border-radius:20%;
     &:hover{
         transition: 2s;
-        // background-color: rgb(255, 0, 0);opacity:0.8;
         box-shadow: 0px 0px 20px red;
         transform: scale(1.15);
         background-color: black;
@@ -131,25 +126,10 @@ body {
     text-align: center;
     padding: 100px;
 }
-// main index page end 
+// main index page end styling
 
 
 // contact me page starts
-header {
-    text-align: center;
-    background-color:royalblue;
-    background-size: cover;
-    overflow: hidden;
-    max-width: 100%;
-    grid-area: header;
-    padding: 15px;
-}
-header:hover {
-    color:whitesmoke;
-    transition:all 2.5s ease;
-    transform: scale(1.1);
-}
-
 #contact-nav {
     height: 7.5em;
     width: 100%;
@@ -230,4 +210,45 @@ header:hover {
         background-color: whitesmoke;
     }
 }
-// contact me page end
+// contact me page end styling
+
+// blog starts
+#page-wrap { width: 60%; margin: 10% auto; 
+}
+
+aside {
+  display: block;
+  position: relative;
+  margin: 40px 0;
+  margin-bottom: 15%;
+}
+
+aside h3 {
+  font: bold 12px Sans-Serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #369;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 0 10px 0;
+  line-height: 24px;
+  border-radius: 10%;
+}
+
+.blog-text{
+color: whitesmoke;
+text-align: center;
+}
+#blog-images{
+    border-radius: 10%;
+    margin-top: 5%;
+    &:hover{
+        transition: 2s;
+        transform: scale(1.05);
+        box-shadow: 0px 0px 30px red;
+    }
+}
+// end blog styling
+#lorem{
+    margin-bottom: 50%;
+}
